@@ -14,7 +14,7 @@ get 'about', to: "static#about"
 This is mapped to the `static` controller and its `about` action, which renders
 the `about.html.erb` view template.
 
-## Dynamic Requests
+## Dynamic Requests 
 
 According to REST, if we want to retrieve the post with an id of `42`, we should
 navigate to `/posts/42`. It's technically possible to create a new line in your
